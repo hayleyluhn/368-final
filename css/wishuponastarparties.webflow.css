@@ -116,6 +116,9 @@ p {
 .foot_nav {
   height: 40px;
 }
+.banner {
+  margin-top: 19px;
+}
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
