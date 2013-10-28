@@ -119,6 +119,14 @@ p {
 .banner {
   margin-top: 19px;
 }
+.foot_link {
+  margin-top: 16px;
+  color: #14728c;
+}
+.footer {
+  height: 36px;
+  margin-top: 15px;
+}
 @media (max-width: 991px) {
 }
 @media (max-width: 767px) {
