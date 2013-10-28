@@ -8,8 +8,8 @@ body {
 }
 h1 {
   margin: 27px 0px 10px;
-  font-family: Lato, sans-serif;
-  color: white;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #14728c;
   font-size: 38px;
   line-height: 44px;
   font-weight: 300;
@@ -22,6 +22,8 @@ h2 {
 }
 h3 {
   margin: 10px 0px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
   font-size: 24px;
   line-height: 30px;
   font-weight: 700;
@@ -76,7 +78,7 @@ p {
   float: none;
 }
 .middle {
-  height: 725px;
+  height: 600px;
   float: none;
   background-color: rgba(137, 213, 234, 0.65);
 }
@@ -109,7 +111,13 @@ p {
 .cast {
   height: 690px;
   float: none;
-  background-color: rgba(20, 114, 140, 0.83);
+  background-color: rgba(0, 0, 0, 0);
+  background-image: -webkit-linear-gradient(rgba(137, 213, 234, 0.65), rgba(77, 163, 186, 0.85) 32%, #14728c 90%);
+  background-image: -o-linear-gradient(rgba(137, 213, 234, 0.65), rgba(77, 163, 186, 0.85) 32%, #14728c 90%);
+  background-image: linear-gradient(rgba(137, 213, 234, 0.65), rgba(77, 163, 186, 0.85) 32%, #14728c 90%);
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
 }
 .ariel_inside {
   margin-top: 20px;
@@ -155,7 +163,9 @@ p {
   background-color: white;
 }
 .cast_paragraph {
-  color: white;
+  margin-bottom: 38px;
+  font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #003c4d;
 }
 .footer_row {
   height: 31px;
