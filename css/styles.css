@@ -102,10 +102,14 @@ img[alt="ariel"] {
 	float: right;
 	padding: 0 20px 20px 40px;
 	}
+.littler-mermaid {
+	margin: auto auto 30px auto;
+	}
 	
 .little-mermaid p {
 	font-size: 18px;
 	padding: 0px 20px 0px 20px;
+
 	}
 	
 .beauty {
