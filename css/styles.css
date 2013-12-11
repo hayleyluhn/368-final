@@ -24,6 +24,7 @@
 	
 .content {
 		width: 100%; /* 960px / 960px = 100% */
+		height: auto;
 		background: #9AE7FC
 		}
 		
@@ -98,13 +99,18 @@ ul li {
 	margin-left: 100px;
 	}
 	
+	
+/* character page content */	
+
+
 img[alt="ariel"] {
 	float: right;
 	padding: 0 20px 20px 40px;
 	}
 	
 .little-mermaid {
-	margin: 0 0 80px 0;
+	margin: 20px 0 80px 0;
+	padding-top: 10px;
 	}
 	
 .little-mermaid p {
@@ -113,24 +119,132 @@ img[alt="ariel"] {
 
 	}
 
+.little-mermaid h2 {
+
+	margin-left: 81%;
+	}
+
+
 img[alt="beauty"] {
 	float: left;
 	padding: 0 40px 20px 20px;
 	
 	}
-
-.beauty h2 {
-	float: right;
+	
+.beauty {
+	margin: 0 0 80px 0;
 	}
 
 .beauty p {
-	float: right;
+	font-size: 18px;
+	padding: 0px 20px 0px 20px;
 }
+
+.beauty h2 {
+	margin-left: 20px;
+	}
+
+img[alt="tinkerbell"] {
+	float: right;
+	padding: 0 20px 20px 40px;
+}
+
+.tinkerfairy {
+	margin: 0 0 80px 0;
+}
+
+.tinkerfairy p {
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	}
+
+.tinkerfairy h2 {
+	margin-left: 87%;
+	}
+	
+img[alt="rapunzel"] {
+	float: left;
+	padding: 0 40px 20px 20px;
+	}
+
+.rapunzel {
+	margin: 0 0 80px 0;
+	}
+	
+.rapunzel p{
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	}
+	
+.rapunzel h2 {
+	margin-left: 20px;
+	}
+	
+img[alt="merida"] {
+	float: right;
+	padding: 0 20px 20px 40px;
+	}
+	
+.scottish {
+	margin: 0 0 80px 0;
+	}
+
+.scottish p {
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	}
+
+.scottish h2 {
+	margin-left: 84%;
+	}
+
+img[alt="sleepingbeauty"] {
+	float: left;
+	padding: 0 40px 20px 20px;
+	}
+
+.sleeping-beauty {
+	margin: 0 0 80px 0;
+	}
+
+.sleeping-beauty p {
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	}
+	
+.sleeping-beauty h2 {
+	margin-left: 20px;
+	}
+	
+img[alt="snow"] {
+	float: right;
+	padding: 0 20px 20px 40px;
+	}
+
+.snowwhite {
+	margin: 0 0 95px 0;
+	}
+
+.snowwhite p {
+	font-size: 18px;
+	padding: 0 20px 0 20px;
+	}
+
+.snowwhite h2 {
+	margin-left: 88%;
+	}
+
+
 /* Links */
 
 
+.nav a:hover {
+	color: #BBB;
+	}
 
-
+.footer a:hover {
+	color: #036;
+	}
 
 
 
