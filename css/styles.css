@@ -20,6 +20,7 @@
 	width: 100%; /* 960px / 960px = 100% */
 	background: #0080A3;
 	margin: 0 0 -21px 0;
+	height: 40px;
 	}
 	
 .content {
@@ -34,7 +35,43 @@
 	
 	}
 	
-	
+/*Sprite Styling*/
+
+.nav ul li a:link {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 0px 0px;
+}
+
+.nav ul li a:hover {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 0px -40px;
+}
+
+/* on hover show home.png */
+.nav ul li:nth-child(2) a:link {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat  0px -80px;
+}
+
+.nav ul li:nth-child(2) a:hover {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 0px -120px;
+}
+/* on hover show home.png */
+.nav ul li:nth-child(3) {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 0px -160px;
+}
+
+.nav ul li:nth-child(3) {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 999px -200px;
+}
+
+/* on hover show home.png */
+.nav ul li:nth-child(4) {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 0px -240px;
+}
+
+.nav ul li:nth-child(4) {
+	background: url("http://csssprites.com/results/4d08ee9e97f40989f4f46d7927c36687/result.png") no-repeat 999px -280px;
+}
+
+
 /* Content */
 
 img[alt="logo"] {
@@ -313,7 +350,21 @@ img[alt="ashton"]{
 	margin: 0 6% 0 3%;
 	}
 
+.mission {
+	margin: 1.75% 0 0 1.5%;
+	padding-top: 1px;
+	}
 
+.cast-head {
+	margin: 0 0 0 1.5%;
+	}
+
+
+.mission-paragraph {
+	margin: 0 9% 0 10%;
+	font-size: 18px;
+	text-align: justify;
+	}
 /* Links */
 
 
