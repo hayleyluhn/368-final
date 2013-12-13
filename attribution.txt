@@ -1,0 +1,52 @@
+Attribution:
+
+Images in .partybanner (image on home page):
+	(All Images EXCEPT the image of the Little Mermaid)
+
+	The Fairy Tale Headquarters
+	http://www.thefairytaleheadquarters.com
+
+CSS Sprites Generated With:
+	http://csssprites.com
+
+
+Character Page Images:
+	
+	Tinkerbell Photo:
+		http://www.thefairytaleheadquarters.com/Characters.html
+
+	Merida Photo:
+		http://www.thefairytaleheadquarters.com/Characters.html
+
+	Rapunzel Photo:
+		http://www.thefairytaleheadquarters.com/Characters.html
+
+	Sleeping Beauty Photo:
+		http://www.thefairytaleheadquarters.com/Characters.html
+
+	Snow White Photo: 
+		http://www.thefairytaleheadquarters.com/Characters.html
+
+
+CSS Animation Code:
+	Pali Madra on CodePen
+	http://codepen.io/palimadra/pen/JyHfx
+
+CSS Sprite Code:
+	Colin Manikoth
+	In Class Code Pen
+
+Fonts:
+Google Fonts
+http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:100italic
+
+
+***The Following were of my own creation***
+
+All Cast Photos
+All Little Mermaid Photos
+All Belle Photos
+Company Logo
+Sprite Map Images
+All of the paragraph content
+
