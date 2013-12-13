@@ -314,30 +314,122 @@ img[alt="snow"] {
 	padding: 0 0 0 7%;
 	
 	}
+/*animation for cast photos*/
+
+
+}
+.grower:hover {
+    background: rgba(237,95,0,1.0);
+    border-color: rgba(237,95,0,1.0);
+
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+/*End cast photo animation*/
+
+/*cast photos*/
 
 img[alt="hayley"]{
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #555;
 	margin: 20px 20px 5px 20px;
+	
+	
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+img[alt="hayley"]:hover {
+   
+   	-moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 	}
 	
 img[alt="ashley"]{
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #555;
 	margin: 20px 20px 5px 20px;
+	
+	
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 	}
+
+img[alt="ashley"]:hover {
+   
+   	-moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	}
+
 img[alt="stephanie"]{
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #555;
 	margin: 20px 20px 5px 20px;
+	
+	
+    -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+	}
+	
+img[alt="stephanie"]:hover {
+   
+   	-moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
+
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
 	}
 	
 img[alt="ashton"]{
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px #555;
 	margin: 20px 20px 5px 20px;
+	
+	 -moz-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
 	}
+	
+img[alt="ashton"]:hover {
+   
+   	-moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2); 
 
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+	}
+	
 .cast-names {
 	font-family: 'Alegreya Sans SC', sans-serif;
 	color: black;
