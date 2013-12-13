@@ -19,7 +19,7 @@
 .nav {
 	width: 100%; /* 960px / 960px = 100% */
 	background: #0080A3;
-	margin: 0 0 -20px 0;
+	margin: 0 0 -21px 0;
 	}
 	
 .content {
@@ -45,9 +45,8 @@ img[alt="logo"] {
 
 img[alt="partybanner"] {
 	display: block;
-	padding: 10px 0;
-	margin-left: auto;
-	margin-right: auto;
+	margin: 20px auto auto auto;
+	padding: 20px 0 20px 0;
 	}
 	
 ul {
@@ -61,21 +60,27 @@ a {
 	
 ul li {
 	text-align: center;
-	display: inline-block;
-	margin-left: auto;
+	display: inline;
+	margin-left: 1%;
 	margin-right: auto;
+	}
+	
+.footer li {
+	margin-left: 0;
 	}
 	
 .nav ul li a {
 	color: white;
-	font-family:"helvetica", "Lucida Grande", sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
 	font-size: 24px;
 	margin-left: 60px;
 }
 
 .footer ul li a {
 	color: white;
-	font-family:"helvetica", "Lucida Grande", sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
 	font-size: 24px;
 }
 	
@@ -89,7 +94,8 @@ ul li {
 .footer ul li a {
 	color: lightblue;
 	font-size: 14px;
-	font-family: helvetica sans-serif;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
 	}
 	
 .footer li div {
@@ -97,15 +103,31 @@ ul li {
 	padding: 0 50px;
 	margin-right: auto;
 	margin-left: 100px;
+	margin-top: 10px;
 	}
 	
+h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 500;
+	}
+	
+h1 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100; }
+
+p {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-weight: 100;
+	}
 	
 /* character page content */	
 
 
 img[alt="ariel"] {
 	float: right;
-	padding: 0 20px 20px 40px;
+	margin: 0 20px 20px 40px;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 	
 .little-mermaid {
@@ -121,14 +143,15 @@ img[alt="ariel"] {
 
 .little-mermaid h2 {
 
-	margin-left: 81%;
+	margin-left: 82%;
 	}
 
 
 img[alt="beauty"] {
 	float: left;
-	padding: 0 40px 20px 20px;
-	
+	margin: 0 40px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 	
 .beauty {
@@ -146,7 +169,9 @@ img[alt="beauty"] {
 
 img[alt="tinkerbell"] {
 	float: right;
-	padding: 0 20px 20px 40px;
+	margin: 0 20px 20px 40px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 }
 
 .tinkerfairy {
@@ -159,12 +184,14 @@ img[alt="tinkerbell"] {
 	}
 
 .tinkerfairy h2 {
-	margin-left: 87%;
+	margin-left: 88%;
 	}
 	
 img[alt="rapunzel"] {
 	float: left;
-	padding: 0 40px 20px 20px;
+	margin: 0 40px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 
 .rapunzel {
@@ -182,7 +209,9 @@ img[alt="rapunzel"] {
 	
 img[alt="merida"] {
 	float: right;
-	padding: 0 20px 20px 40px;
+	margin: 0 20px 20px 40px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 	
 .scottish {
@@ -195,12 +224,14 @@ img[alt="merida"] {
 	}
 
 .scottish h2 {
-	margin-left: 84%;
+	margin-left: 83%;
 	}
 
 img[alt="sleepingbeauty"] {
 	float: left;
-	padding: 0 40px 20px 20px;
+	margin: 0 40px 20px 20px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 
 .sleeping-beauty {
@@ -218,7 +249,9 @@ img[alt="sleepingbeauty"] {
 	
 img[alt="snow"] {
 	float: right;
-	padding: 0 20px 20px 40px;
+	margin: 0 20px 20px 40px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
 	}
 
 .snowwhite {
@@ -232,6 +265,52 @@ img[alt="snow"] {
 
 .snowwhite h2 {
 	margin-left: 88%;
+	}
+	
+	
+	
+/* About Us Page Content */
+
+.cast {
+	display: inline;
+	margin: auto auto;
+	padding: 0 0 0 7%;
+	
+	}
+
+img[alt="hayley"]{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
+	margin: 20px 20px 5px 20px;
+	}
+	
+img[alt="ashley"]{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
+	margin: 20px 20px 5px 20px;
+	}
+img[alt="stephanie"]{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
+	margin: 20px 20px 5px 20px;
+	}
+	
+img[alt="ashton"]{
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #555;
+	margin: 20px 20px 5px 20px;
+	}
+
+.cast-names {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: black;
+
+	text-align: center;
+	}
+
+.cast-names ul li {
+	display: inline-block;
+	margin: 0 6% 0 3%;
 	}
 
 
